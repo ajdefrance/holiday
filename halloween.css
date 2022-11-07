@@ -1,0 +1,28 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #403C3D
+    }
+
+    30% {
+        background-color: #563A7E
+    }
+
+    60% {
+        background-color: #8F0118
+    }
+
+    90% {
+        background-color: #F27300
+    }
+
+    100% {
+        background-color: #F29D00
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
